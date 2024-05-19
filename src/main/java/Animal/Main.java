@@ -21,8 +21,8 @@ public class Main {
         .toList();
 
     // Animalのage順にcryメソッドを実行
-    for (Animal a : animalListByAge) {
-      a.cry();
+    for (Animal animal : animalListByAge) {
+      animal.cry();
     }
 
     // Dogクラスを継承したRetrieverクラスのインスタンス化
